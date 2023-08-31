@@ -16,6 +16,10 @@ Route::get('/', function () {
 });
 
 // homepage
-Route::prefix('/zambales/homepage')->group(function () {
-    Route::get('/', 'zambalesController@homepage')->name('homepage');
+Route::prefix('/zambales')->group(function () {
+    Route::get('/homepage', 'zambalesController@homepage')->name('homepage');
+    Route::get('/about', 'zambalesController@about')->name('about');
+    Route::get('/destinations', 'zambalesController@destinations')->name('destinations');
+    Route::get('/gallery', 'zambalesController@gallery')->name('gallery');
+    Route::get('/contactUs', 'zambalesController@contactUs')->name('contactUs');
 });
