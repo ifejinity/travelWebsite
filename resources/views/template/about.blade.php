@@ -1,5 +1,5 @@
 @extends('layout.layout')
-@section('heroabout')
+{{-- @section('heroabout')
     <div class="w-full h-screen relative mb-[150px]">
         <div class="absolute w-full min-h-screen flex justify-center items-end bottom-[-100px]">
             <div class="bg-white w-full max-w-[1000px] h-[600px] shadow-lg mx-[5%] rounded-lg p-10">
@@ -10,15 +10,18 @@
             <source src="{{ asset('assets/videos/aboutvideo.mp4') }}" title="YouTube video player" frameborder="0" allow="accelerometer" type="video/mp4">
         </video>
     </div>
-@endsection
+@endsection --}}
 {{-- history --}}
 @section('history')
-    <div class="flex md:flex-row flex-col min-h-fit justify-center my-[100px] gap-5 relative"> 
+    <div class="flex md:flex-row flex-col min-h-fit justify-center my-[100px] gap-5 relative pt-[30px]"> 
         <div class="flex flex-col md:mx-[10%] mx-[5%] gap-3 max-w-[1440px]">
             <h1 class="text-bold text-[24px] font-[900]">HISTORY</h1>
             <div class="bg-blue-500 h-[5px] w-[200px]"></div>
-            <p class="indent-10">The name of the province is derived from its earliest inhabitants, the Zambals, whom the Spanish found worshipping spirits called Anitos. 
-                They were referred to as "Sambali," from the Malay word samba, meaning "to worship." The term was later Hisparicized to "Zambal." When Juan de Salcedo came to explore the area in 1572, he landed at Cape Bolinao, then a part of Zambales. The Spaniards drove a group of Chinese pirates off the coast of Bolinao thereby earning the good will of the natives. Zambales was one of the earliest provinces created during the Spanish rule. As founded in the 16th century, it was composed of the area extending from Cape Bolinao in the north to Subic on the south. Due to their inaccessibility from the capital, seven towns in the northern portion of Zambales - from Bolinao to Infanta and including Alaminos - were later ceded to Pangasinan, forming that province's western part. Zambales is the home province of the seventh president of the Philippine Republic, Ramon Magsaysay, who was born in Iba and later moved to Castillejos, where His residence remains as a Museum these days.</p>
+            <div class="grid lg:grid-cols-2 grid-cols-1 gap-3">
+                <iframe class="w-full max-w-[700px] h-[400px] lg:order-1 order-2" src="https://www.youtube.com/embed/Y2rTIM6Qp_g?si=Ll1ckeGm74JZimfH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p class="indent-10 lg:order-2 order-1">The name of the province is derived from its earliest inhabitants, the Zambals, whom the Spanish found worshipping spirits called Anitos. 
+                    They were referred to as "Sambali," from the Malay word samba, meaning "to worship." The term was later Hisparicized to "Zambal." When Juan de Salcedo came to explore the area in 1572, he landed at Cape Bolinao, then a part of Zambales. The Spaniards drove a group of Chinese pirates off the coast of Bolinao thereby earning the good will of the natives. Zambales was one of the earliest provinces created during the Spanish rule. As founded in the 16th century, it was composed of the area extending from Cape Bolinao in the north to Subic on the south. Due to their inaccessibility from the capital, seven towns in the northern portion of Zambales - from Bolinao to Infanta and including Alaminos - were later ceded to Pangasinan, forming that province's western part. Zambales is the home province of the seventh president of the Philippine Republic, Ramon Magsaysay, who was born in Iba and later moved to Castillejos, where His residence remains as a Museum these days.</p>
+            </div>
                 <p class="indent-10">Zambales has a natural beauty, it has been touched by civilization yet has maintained its rustic ambiance and beauty. The Zambales coastline is most famous for its sandy beaches and deep blue sea teeming with coral reefs. Zambales is perfectly suited for visitors seeking an authentic view of the Philippines without going too far from the national capital, Manila. It is located at the North Western part of Luzon, the center is Iba located 204 kilometers or approximately a three hour drive from Manila. The province has a vast area of lowlands along the coast where the town centers are located. The northern part is less developed. Mountain ranges line the East. Many containing large deposits of minerals, such as Chromate, Nickel, Copper and Gold, these Mountains also contain several Volcanos, the best know of which is <a href="" class="text-blue-500 font-[600] italic">Mt. Pinatubo</a>, which erupted in 1991. Fantastic views of the Mountain and it's lake filled crater can be seen from the air by light aircraft who's flights can originate in Clark, Pampanga or in Iba, Zambales. </p>
         </div>
     </div>
