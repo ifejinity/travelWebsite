@@ -51,3 +51,21 @@
         </div>
     </div>
 @endsection
+{{-- js --}}
+@section('js')
+    <script>
+        // swiper hero
+        var swiper = new Swiper("#hero .mySwiper", {
+            spaceBetween: 30,
+            effect: "fade",
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+@endsection

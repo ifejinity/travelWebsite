@@ -22,4 +22,5 @@ Route::prefix('/zambales')->group(function () {
     Route::get('/destinations', 'zambalesController@destinations')->name('destinations');
     Route::get('/gallery', 'zambalesController@gallery')->name('gallery');
     Route::get('/contactUs', 'zambalesController@contactUs')->name('contactUs');
+    Route::post('/email', 'zambalesController@sendEmail')->name('email');
 });

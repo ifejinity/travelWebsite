@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zambales | {{ $title }}</title>
+    <link rel="shortcut icon" href="{{ asset('assets/images/zambales-logo.png') }}" type="image/x-icon">
     {{-- cdns --}}
     @include('partials.__cdn')
     {{-- tailwind config --}}
@@ -14,26 +15,26 @@
 </head>
 <body class="w-full min-h-screen select-none font-[outfit]">
     {{-- header --}}
-    <div class="flex justify-between items-center py-5 px-[5%] fixed z-[2] w-full top-0 left-0 bg-white shadow-lg">
+    <div class="flex justify-between items-center py-3 px-[5%] fixed z-[2] w-full top-0 left-0 bg-white shadow-lg">
         <div>
-            <p>DisoverZambales</p>
+            <img src="{{ asset('assets/images/zambales-logo.png') }}" alt="" class="w-[50px]">
         </div>
         <div>
             {{-- desktop nav --}}
-            <ul class="gap-2 md:flex hidden font-[500]">
-                <a href="{{ route('homepage') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'Homepage' ? 'text-blue-600 bg-blue-100' : '' }}">Homepage</a>
+            <ul class="gap-1 md:flex hidden font-[500]">
+                <a href="{{ route('homepage') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'Home' ? 'text-blue-600 bg-blue-100' : '' }}">Home</a>
                 <a href="{{ route('about') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'About' ? 'text-blue-600 bg-blue-100' : '' }}">About</a>
                 <a href="{{ route('destinations') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'Destinations' ? 'text-blue-600 bg-blue-100' : '' }}">Destinations</a>
                 <a href="{{ route('gallery') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'Gallery' ? 'text-blue-600 bg-blue-100' : '' }}">Gallery</a>
                 <a href="{{ route('contactUs') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'Contact us' ? 'text-blue-600 bg-blue-100' : '' }}">Contact us</a>
             </ul>
             {{-- mobile nav --}}
-            <ul class="gap-10 md:hidden hidden fixed flex-col top-0 right-0 p-5 min-h-screen w-[250px] bg-white pt-[50px]" id="mobileNav">
-                <a href="{{ route('homepage') }}" class="cursor-pointer hover:text-blue-600">Homepage</a>
-                <a href="{{ route('about') }}" class="cursor-pointer hover:text-blue-600">About</a>
-                <a href="{{ route('destinations') }}" class="cursor-pointer hover:text-blue-600">Destinations</a>
-                <a href="{{ route('gallery') }}" class="cursor-pointer hover:text-blue-600">Gallery</a>
-                <a href="{{ route('contactUs') }}" class="cursor-pointer hover:text-blue-600">Contact us</a>
+            <ul class="gap-3 md:hidden hidden fixed flex-col top-0 right-0 p-5 min-h-screen w-full bg-white pt-[100px]" id="mobileNav">
+                <a href="{{ route('homepage') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'Home' ? 'text-blue-600 bg-blue-100' : '' }}">Home</a>
+                <a href="{{ route('about') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'About' ? 'text-blue-600 bg-blue-100' : '' }}">About</a>
+                <a href="{{ route('destinations') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'Destinations' ? 'text-blue-600 bg-blue-100' : '' }}">Destinations</a>
+                <a href="{{ route('gallery') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'Gallery' ? 'text-blue-600 bg-blue-100' : '' }}">Gallery</a>
+                <a href="{{ route('contactUs') }}" class="cursor-pointer hover:text-blue-600 p-2 rounded-lg {{ $title == 'Contact us' ? 'text-blue-600 bg-blue-100' : '' }}">Contact us</a>
                 <p class="absolute bottom-5 text-[14px] text-gray-300 right-5">2023©Jeffrey Lonzanida</p>
             </ul>
             {{-- mobile button --}}
@@ -63,12 +64,13 @@
     @yield('gallery')
 
     {{-- contactus --}}
+    @yield('contactUs')
 
     {{-- 404 --}}
     @yield('404')
 
     {{-- footer --}}
-    <div class="min-h-screen w-full items-center justify-center flex bg-cover bg-[url({{ asset('assets/images/overview-bg.jpg') }})] relative py-[50px]" id="parallax">
+    <div class="min-h-screen w-full items-center justify-center flex bg-cover bg-[url({{ asset('assets/images/overview-bg.jpg') }})] relative py-[50px] bg-center">
         <div class="flex flex-col w-full justify-center items-center md:mx-[10%] mx-[5%] bg-white lg:p-10 p-5 rounded-md max-w-[1440px]">
             <div class="grid lg:grid-cols-footer md:grid-cols-1 h-fit bg-center w-full gap-3">
                 <div class="flex flex-col justify-center items-center">
@@ -92,19 +94,19 @@
                     <div class="flex flex-col">
                         <p class="text-blue-500 text-[18px] font-[500] mb-3">Municipalities/Cities</p>
                         <a href="/zambales/about/#botolan" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Botolan</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Cabangan</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Candelaria</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Castillejos</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Iba</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Masinloc</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Olongapo</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Palauig</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Antonio</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Felipe</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Marcelino</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Narciso</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Santa Cruz</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Subic</a>
+                        <a href="/zambales/about/#cabangan" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Cabangan</a>
+                        <a href="/zambales/about/#candelaria" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Candelaria</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Castillejos</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Iba</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Masinloc</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Olongapo</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Palauig</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Antonio</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Felipe</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Marcelino</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Narciso</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Santa Cruz</a>
+                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Subic</a>
                     </div>
                 </div>
             </div>
@@ -118,14 +120,15 @@
             </div>
         </div>
     </div>
-    {{-- loader --}}
-    {{-- <div class="w-full min-h-screen bg-white/90 fixed top-0 z-[6] flex justify-center items-center" id="loader">
-        <span class="loading loading-spinner loading-lg"></span>
-    </div> --}}
+
     {{-- js --}}
-    {{-- swiper js --}}
+    {{-- swiper js cdn --}}
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    {{-- toastify js --}}
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    {{-- js from templates --}}
     @yield('js')
+    {{-- index js --}}
     <script src="{{ asset('assets/js/index.js') }}"></script>
 </body>
 </html>

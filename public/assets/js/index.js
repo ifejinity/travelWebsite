@@ -10,23 +10,4 @@ $(document).ready(function () {
             mobileNav.classList.replace('flex', 'hidden');
         }
     })
-    // swiper hero
-    var swiper = new Swiper("#hero .mySwiper", {
-        spaceBetween: 30,
-        effect: "fade",
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
-    // image background parallax effect
-    // const parallax = document.querySelector("#parallax");
-    // window.addEventListener("scroll", function () {
-    //     let offset = window.pageYOffset;
-    //     parallax.style.backgroundPositionY = offset * 0.7 + "px";
-    // });
 });
