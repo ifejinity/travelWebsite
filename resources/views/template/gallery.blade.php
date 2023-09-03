@@ -1,4 +1,5 @@
 @extends('layout.layout')
+{{-- gallery --}}
 @section('gallery')
     <div class="flex md:flex-row flex-col min-h-fit justify-center my-[100px] gap-5 relative pt-[30px]" id="imagesParent"> 
         <div class="flex flex-col md:mx-[10%] mx-[5%] gap-3 max-w-[1440px] overflow-x-auto">
@@ -40,12 +41,23 @@
     </div>
 @endsection
 {{-- gallery review modal --}}
-{{-- review modal --}}
 @section('reviewGallery')
     @include('partials.__reviewModal')
 @endsection
 {{-- js script --}}
 @section('js')
+    {{-- review response success --}}
+    @if (session('success'))
+        <script>
+            Toastify({
+                text: "Review Submitted!",
+                className: "info",
+                style: {
+                    background: "#22c55e",
+                }
+            }).showToast();
+        </script>
+    @endif
     {{-- swiper --}}
     <script src="{{ asset('assets/js/swiper.js') }}"></script>
     {{-- modal image --}}

@@ -55,6 +55,18 @@
 @endsection
 {{-- js script --}}
 @section('js')
+    {{-- review response success --}}
+    @if (session('success'))
+        <script>
+            Toastify({
+                text: "Review Submitted!",
+                className: "info",
+                style: {
+                    background: "#22c55e",
+                }
+            }).showToast();
+        </script>
+    @endif
     {{-- swiper --}}
     <script src="{{ asset('assets/js/swiper.js') }}"></script>
     {{-- modal image --}}

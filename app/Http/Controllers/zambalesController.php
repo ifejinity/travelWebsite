@@ -10,14 +10,15 @@ use Illuminate\Support\Facades\Validator;
 
 class zambalesController extends Controller
 {
+    // redirect to home with title home
     public function homepage() {
         return view('template.homepage')->with(['title'=>'Home']);
     }
-    
+    // redirect to about with title about
     public function about() {
         return view('template.about')->with(['title'=>'About']);
     }
-
+    
     public function destinations() {
         $myDo = content::where('type', 'do')->get();
         $myStay = content::where('type', 'stay')->get();
@@ -71,13 +72,9 @@ class zambalesController extends Controller
     // get review
     public function getReview(Request $request) {
         $id = $request->id;
-        try {
-            $myReviews = review::where('content_id', $id)->get();
-            $myContent = content::where('content_id', $id)->get();
-            return response()->json(['status'=>200, 'myReviews'=>$myReviews, 'myContent'=>$myContent]);
-        } catch (ModelNotFoundException $e) {
-            return response()->json(['status'=>500, 'message'=>'Internal servel error!']);
-        }
+        $myReviews = review::where('content_id', $id)->get();
+        $myContent = content::where('content_id', $id)->get();
+        return response()->json(['status'=>200, 'myReviews'=>$myReviews, 'myContent'=>$myContent]);
     }
     // set review
     public function setReview(Request $request) {
@@ -88,6 +85,6 @@ class zambalesController extends Controller
             'score' => 'regex:/^[1-5]$/'
         ]);
         review::create($validated);
-        return redirect()->back();
+        return redirect()->back()->with('success', 'Review submitted!');
     }
 }
