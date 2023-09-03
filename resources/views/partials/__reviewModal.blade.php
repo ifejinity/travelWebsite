@@ -1,10 +1,10 @@
-<div class="lg:flex-row flex-col w-full h-screen fixed bg-white z-[5] top-0 hidden" id="modalReview">
+<div class="lg:flex-row flex-col w-full h-screen fixed bg-white z-[5] top-0 hidden overflow-y-scroll" id="modalReview">
     <div class="flex flex-col gap-3 lg:w-[65%] w-full bg-black justify-center items-center p-5 relative">
         <button class="btn bi bi-x-lg rounded-full absolute top-[24px] left-[24px] bg-white/50 border-none" id="hideReviewModal"></button>
-        <img src="" alt="" class="max-w-[700px] w-full" id="reviewImage">
+        <img src="" alt="" class="w-full h-full object-contain" id="reviewImage">
     </div>
-    <div class="flex flex-col gap-3 lg:w-[35%] w-full h-full overflow-y-scroll relative">
-        <div class="shadow-md p-5 sticky top-0 z-[2] bg-white" id="description"></div>
+    <div class="flex flex-col gap-3 lg:w-[35%] w-full lg:overflow-y-scroll relative">
+        <div class="shadow-md p-5 lg:sticky top-0 z-[2] bg-white" id="description"></div>
         <div class="p-5 flex-col flex" id="reviews">
             {{-- reviews go here --}}
         </div>

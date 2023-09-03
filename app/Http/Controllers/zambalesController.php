@@ -78,13 +78,18 @@ class zambalesController extends Controller
     }
     // set review
     public function setReview(Request $request) {
-        $validated = $request->validate([
+        $validated = Validator::make($request->all(),[
             'content_id' => 'exists:contents,content_id',
             'subject' => 'required|max:30',
             'message' => 'required|max:250',
             'score' => 'regex:/^[1-5]$/'
         ]);
-        review::create($validated);
-        return redirect()->back()->with('success', 'Review submitted!');
+        if($validated->fails()) {
+            return redirect()->back()->with('error', 'a')
+                            ->withErrors($validated)->withInput();
+        } else {
+            review::create($request->all());
+            return redirect()->back()->with('success', 'a');
+        }
     }
 }
