@@ -59,9 +59,11 @@
     {{-- destination --}}
     @yield('destinations')
     @yield('modalImage')
+    @yield('reviewDestinations')
 
     {{-- gallery --}}
     @yield('gallery')
+    @yield('reviewGallery')
 
     {{-- contactus --}}
     @yield('contactUs')

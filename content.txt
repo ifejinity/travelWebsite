@@ -1,0 +1,343 @@
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Camp at Anawangin Cove", 
+"Anawangin Cove is one of the most popular camping spots in Zambales. The sheltered bay boasts and ash-colored beach due to the Mt. Pinatubo volcanic eruption.", 
+"anawangin.JPG",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Unwind at Nagsasa Cove", 
+"Similar to Anawangin Cove, Nagsasa Cove is also carpeted with ash-colored sand and surrounded by pine-like Agoho trees. It has all the good things Anawangin is known for, but this one has a more relaxed atmosphere. Hike up the hill to enjoy the breathtaking view. From there, you should see the aqua blue water encircled with nature’s greenery in all its glory.", 
+"nagsasa.jpg",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Take Photos at Capones Island", 
+"The island was previously known as “Isla de Gran Capon” during the Spanish era. It’s covered in rocks on one end and white sand on the other. It’s a great attraction for surfers and divers alike. The island is legendary for its lighthouse which was built in 1890, with Filipino’s bare hands. The famous landmark sits atop the sharp cliff. The tower is perfect for photoshoots since it displays an inviting cinematic scene. ", 
+"capones-island.jpg",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Spend a Weekend at Crystal Beach Resort", 
+"Crystal Beach Resort offers a heavenly stay where nature and comfort is wrapped into one. It is conveniently located in San Narciso, Zambales. It’s a favorite hangout place for thrill-seekers, especially for surfing enthusiasts and beginners who yearn to ride big waves near the metro. The resort offers a variety of lodging options, from air-conditioned rooms to glamping tents.", 
+"crystal-beach.jpg",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Play at Inflatable Island Subic", 
+"Inflatable Island is essentially a big playground set above the open sea in Subic built for kids and kids-at-heart. From shaky bridges to the crowd favorite Tarzan swing, you’ll never run out of obstacles here. The biggest attraction yet? The gigantic unicorn that is just cuteness overload!", 
+"inflatable-island.jpeg",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Hike Mt. Pinatubo", 
+"Mt. Pinatubo is one of the top attractions in Central Luzon, covering not just Zambales but Pampanga and Tarlac as well. This active volcano can be explored by trekking and by riding 4x4 vehicles along its bumpy lahar roads. ", 
+"mt-pinatubo.jpg",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Escape to Talisayen Cove", 
+"Mt. Pinatubo is one of the top attractions in Central Luzon, covering not just Zambales but Pampanga and Tarlac as well. This active volcano can be explored by trekking and by riding 4x4 vehicles along its bumpy lahar roads.  ", 
+"talisayen.jpg",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Stop Over at Camara Island", 
+"It’s a small island that’s no bigger than the size of a football field. It may be humble in size, but it has an astonishing view of Pundaquit and its scenic mountains. Overnight camping here is prohibited, and drinking isn’t allowed. Since it’s a relatively small island, the most exciting activity you can do here is snorkeling. The island is perfect as the first stop to your island-hopping tour in Zambales.", 
+"camara-island.jpg",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Ride Horses at El Kabayo Stables", 
+"El Kabayo is arguably the best place to learn and go horseback riding in the country. The establishment is tucked in Subic Bay Freeport Zone, Zambales and is home to healthy and friendly horses.", 
+"el-kabayo.jpg",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Harvest Mangoes at Rosa Farms", 
+"Zambales is home to the Philippine Carabao Mango. Pick and savor on some sweet mangoes at Rosa Farms. It’s a 12.5-hectare mango orchard situated along the National Highway in San Marcelino-San Antonio Boundary, Zambales.", 
+"rosa-farms.jpg",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Learn History at Ramon Magsaysay Museum", 
+"Go on a side trip and experience Zambales’ historical side with the beloved former Philippine President, Ramon Magsaysay’s ancestral house, in the town of Castillejos. The house was restored and converted into a museum back in 1990.", 
+"ramon-magsaysay-museum.JPG",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Visit Animals at Botolan Wildlife Farm", 
+"The animal ranch stretches to a 55,000-sqm area. The place serves as a habitat for a wide range of exotic animals and plants around the world.  You’ll find rare species of animals there, like the Brahminy Kite (a now endangered bird), adorable owls, colorful birds, the Philippines’ Brown Deer, and a Siberian tiger among others.", 
+"botolan-wildlife-farm.webp",
+"do"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Sunset Villas Palauig Zambales", 
+"Sunset Villas Palauig Zambales features a garden, terrace, a restaurant and bar in Palauig. There is a barbecue and guests can make use of free WiFi and free private parking.", 
+"sunset-villas.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"ACME Inn Subic", 
+"Featuring 1-star accommodation, ACME Inn Subic is set in Olongapo, less than 1 km from Harbor Point and 2.4 km from Subic Bay Convention Center.", 
+"acme.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"The Palms Resort & Bar", 
+"Situated in San Narciso, 90 metres from La Paz Beach and 39 km from Harbor Point, The Palms Resort & Bar features accommodation with free WiFi, air conditioning, a rooftop pool and a terrace..", 
+"palms-resort.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Villa Janella Residences and Beach Resort", 
+"Set in Zambales, a few steps from Pundaquit Beach, Villa Janella Residences and Beach Resort offers accommodation with an outdoor swimming pool, free private parking, a garden and a shared lounge.", 
+"villa-janella.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"LaZerena Lodge", 
+"Set in Zambales, a few steps from San Felipe Beach, LaZerena Lodge offers accommodation with a shared lounge, free private parking, a terrace and a restaurant.", 
+"lazerena.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Whiterock Beach Hotel and Waterpark", 
+"White Rock Waterpark and Beach Hotel is a beachfront property located in Subic, offering an outdoor swimming pool, private restaurant and private beach area, the hotel also boasts an on-site.", 
+"whiterock.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Segara Residencias", 
+"Located in Olongapo, 1 km from Harbor Point, Segara Residencias provides accommodation with a garden, free private parking, a terrace and a restaurant.", 
+"segara.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Central Park Reef Resort", 
+"Set in Olongapo, 600 metres from Driftwood Beach, Central Park Reef Resort offers accommodation with an outdoor swimming pool, free private parking, a restaurant and a bar.", 
+"central-park-reef.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Casa Saudade Condotels and Transient Rooms", 
+"Casa Saudade Condotels and Transient Rooms is located in the Subic Bay Freeport Zone district of Olongapo, 8.1 km from Harbor Point and 7 km from Subic Bay Convention Center.", 
+"casa-saudade.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"OYO 869 Jnv Dream Hotel", 
+"Featuring 3-star accommodation, OYO 869 Jnv Dream Hotel is located in Zambales, 1 km from White Rock Beach and 1.7 km from Baloy Beach.", 
+"oyo.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Subic Bay View Diamond Hotel", 
+"Set in Olongapo, Subic Bay View Diamond Hotel has a fitness centre, restaurant, bar, and free WiFi throughout the property. The hotel offers an outdoor swimming pool and room service.", 
+"subic-bay-view.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Youhan Beach Resort", 
+"Located in San Antonio, 400 metres from Pundaquit Beach, Youhan Beach Resort provides accommodation with an outdoor swimming pool, free private parking, a garden and a terrace.", 
+"youhan.jpg",
+"stay"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Agoho Restaurant", 
+"Agoho, located in Surf Theori in Zambales, is a charming restaurant that serves homemade European cuisine. With its cozy and intimate setting, guests can enjoy a variety of dishes made from fresh, locally sourced, and imported ingredients. From homemade ice cream to freshly baked pizza made with homegrown sourdough crust, Agoho Restaurant is the perfect place for foodies who are looking for a unique dining experience.", 
+"agoho-restaurant.webp",
+"eat"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Sestra Liwa", 
+"Sestra Liwa is a fun and vibrant restaurant in Zambales that serves delicious Mediterranean food and coffee. The restaurant’s chic, aesthetic interiors and handpainted murals add to the dining experience. Whether you’re looking for a quick coffee fix or a full Mediterranean meal, Sestra Liwa is definitely worth a visit.", 
+"sestra-liwa.webp",
+"eat"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Kwentong Dagat", 
+"Kwentong Dagat, one of the first vegan resorts of its kind in the Philippines, offers a unique and eco-friendly experience. Apart from being able to enjoy a vacation with your furry friends, they have an onsite restaurant that serves a variety of vegan meals, from local Filipino cuisine to international dishes. Guests can enjoy delicious and wholesome food while enjoying the resort’s beautiful beachfront location.", 
+"kwentong-dagat.webp",
+"eat"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Taco Joint", 
+"Get ready for a fiesta in your mouth at Taco Joint! It’s a fun and vibrant spot that offers a short but sweet menu of Mexican favorites; tacos, burritos, and quesadillas. The colorful decor and lively atmosphere make it the perfect place to grab a quick and tasty bite with friends or family.", 
+"taco-joint.webp",
+"eat"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Cafe De Liwa", 
+"You’ll find Cafe De Liwa located inside Liwalize It, a resort known for its tropical-style accommodations. Known for its finest brick oven pizza, their mouthwatering dishes will surely leave you wanting more. With their commitment to spreading good vibes, Cafe De Liwa in Liwalize It is the perfect destination for those looking to unwind and relax.", 
+"cafe-de-liwa.webp",
+"eat"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Sunday Liwa", 
+"From chicken burger to chicken wings, enjoy all things chicken at Sunday Liwa’s kitchen and bar. Pair their dishes with a bottle of beer and the picturesque view of the beach and you have yourself the perfect day.", 
+"sunday-liwa.webp",
+"eat"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Kapitan’s Liwa Resort", 
+"Kapitan’s Liwa Resort offers a diverse range of dishes that are sure to satisfy any craving. From the crispy kare-kare to the succulent chicken wings and hearty ramen, there’s something for everyone at this restaurant.", 
+"kapitan-liwa.webp",
+"eat"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Seazzle Spot", 
+"If you’re looking for a unique and sizzling dining experience in Zambales, head over to this one-stop shop that serves sizzling food on hot metal plates. Indulge in their mouthwatering dishes, from savory meats like a porterhouse steak to liempo and sisig.", 
+"seazzle-spot.webp",
+"eat"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"San Felipe - Bagnet", 
+"This is Zambales’ answer to Ilocos’ Pork Chicharon. Meticulously prepared by the locals of San Felipe, this Zambales version of chicharon is crispy and too delicious to describe. Matched perfectly with a bowl of chili and vinegar, a bowl of hot steaming rice and local pinakbet, this dish will truly give one a taste of bliss. Bagnet is available at the San Felipe Public Market, best bought from 8 till 10 in the morning everyday.", 
+"san-felipe-bagnet.jpg",
+"delicacies"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Zambales Mangoes", 
+"Perhaps the most famous delight of Zambales is its sweet, sumptuous mangoes! Known for its incomparable sweetness and its taste beyond words, the DInamulag variety is the most popular among Zambales mango varieties. Having the provincial festival named after the Dinamulag variety, Zambales mangoes are one of the thousand reasons why people keep coming back to the province. Aside from bringing home a bagful of mangoes, Zambales mangoes are also transformed into delectable desserts, intriguing cocktail drinks and fresh mango thirst quenchers.", 
+"zambales-mango.jpg",
+"delicacies"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Ginipang of Sta. Cruz", 
+"Ginipa is a native delicacy of the northernmost town of Zambales, made of conspicuously dried rice grains flavored with a uniquely sweet concoction to taste. With its prices pegged affordably, this is a favorite pasalubong treat of visiting tourists.", 
+"ginipang.jpg",
+"delicacies"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Pastillas", 
+"A lot of places in the Philippines claim to produce the best pastilles in the country but wait till you get a taste of the carabao milk pastillas from the municipalities of Iba and Palauig. Produced by small households, Zambales pastilles are made from fresh carabao milk and delicately processed by womensfolk, wrapped in clean white Japanese paper and sealed in simple perfection. Once you have taken a bite of the Zambales pastille, you will realize that this is THE pastilles that you have been looking for all along.", 
+"pastillas.jpg",
+"delicacies"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Botolan - Linga", 
+"Popular dubbed by locals as linga, this is actually sesame candies. Zambales is one the very few producers of sesame seeds and Zambalenos in Botolan have created their own adaptation of sesame seeds at its ideal sweetest. Linga is always nutritiously preferred over regular sweet candies. ", 
+"linga.jpg",
+"delicacies"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Dinamulag Festival", 
+"This is Zambales’ answer to Ilocos’ Pork Chicharon. Meticulously prepared by the locals of San Felipe, this Zambales version of chicharon is crispy and too delicious to describe. Matched perfectly with a bowl of chili and vinegar, a bowl of hot steaming rice and local pinakbet, this dish will truly give one a taste of bliss. Bagnet is available at the San Felipe Public Market, best bought from 8 till 10 in the morning everyday.", 
+"dinamulag.webp",
+"festivals"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Sibit-Sibit Summer Festival", 
+"The name Sibit-Sibit was derived from the name of small paddle-driven bancas used for fishing during the early days when Brgy. Barreto was yet called Sitio Maquinaya. During fiestas, fisherfolk hold banca race using pure human strength to win the competition. Today, the festival competition includes motorized banca race and sail boat competition to add fun and excitement to the activity.", 
+"sibit-sibit.jpg",
+"festivals"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Paynauen ‘Duyan’ Festival", 
+"Paynauen ‘Duyan’ Festival is held every April 25 – May 1 in Iba, Zambales. It commemorates the provincial capital’s founding anniversary (founded in 1611) traces its origin from a Zambal word which means rest or pahingahan – the ancient name of Iba before the Spanish conquistadores founded the village on the shore of the Bancal River in 1611. The festival features photo competition and exhibit, sand sculpture competition, skate boarding, 2-cock derby, carabao race, beauty pageant, kite flying, banca race, boxing tournament, street dancing / Duyan Parade, among other activities.", 
+"paynauen.jpg",
+"festivals"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Domorokdok Festival", 
+"Domorokdok Festival May 3 & 4 in Botolan.  This Festival is fast becoming one of the most popular in Zambales, also incorporating “Miss Botolan” and “Miss Botolan Tourism” beauty quests, this is a 2 day spectacular of Street Dancing, Bands, Beauty contests all culminating in the competition of the “Best and most colorful Street Dancing group” in the Municipality.", 
+"domorokdok.jpg",
+"festivals"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Olongapo Grand Mardi Gras", 
+"Olongapo City’s version of the German worldwide phenomena “Oktoberfest” took place this weekend. As the signature event of the city (together with the City Fiesta which takes place every December), the Olongapo City Mardi Gras was a three-day event celebrating the best in musical and dance attractions by featuring some of the most acclaimed bands, performers and entertainment personalities in the country.", 
+"grand-mardi-gras.jpg",
+"festivals"
+);
+
+INSERT INTO contents (title, description, image, type) 
+VALUES (
+"Subic Karakoa Festival", 
+"Subic Karakoa Festival Date TBA Venue Subic Bay Freeport, Zambales Description In honor of the warship Karakoa, a warship built by the Pintados tribe, SBMA sets the stage for a unique festival filled with colorful floats, parade and motorcade called Subic Karakoa Festival. It is meant to complement the annual Philippine Motorsports Festival and the Karakoa Food Festival.", 
+"karakoa.jpg",
+"festivals"
+);
