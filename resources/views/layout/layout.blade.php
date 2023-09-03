@@ -237,7 +237,7 @@
         @if (session('error'))
             <script>
                 Toastify({
-                    text: "Review submitted!",
+                    text: "Review not submitted!",
                     className: "info",
                     style: {
                         background: "#ef4444",
