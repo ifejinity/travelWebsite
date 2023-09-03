@@ -4,7 +4,7 @@
         <img src="" alt="" class="w-full h-full object-contain" id="reviewImage">
     </div>
     <div class="flex flex-col gap-3 lg:w-[35%] w-full lg:overflow-y-scroll relative">
-        <div class="shadow-md p-5 lg:sticky top-0 z-[2] bg-white" id="description"></div>
+        <div class="shadow-md p-5 z-[2] bg-white" id="description"></div>
         <div class="p-5 flex-col flex" id="reviews">
             {{-- reviews go here --}}
         </div>
@@ -21,7 +21,7 @@
             @error('score')
                 <p class="text-[14px] text-red-500">{{ $message }}</p>
             @enderror
-            <input name="subject" type="text" placeholder="Subject" class="input input-bordered w-full" />
+            <input name="subject" type="text" placeholder="Subject" class="input input-bordered w-full text-sm" />
             @error('subject')
                 <p class="text-[14px] text-red-500">{{ $message }}</p>
             @enderror
