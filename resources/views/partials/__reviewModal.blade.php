@@ -8,7 +8,7 @@
         <div class="p-5 flex-col flex" id="reviews">
             {{-- reviews go here --}}
         </div>
-        <form action="{{ route('setReview') }}" method="POST" class="shadow-lg p-5 sticky bottom-0 z-[2] w-full flex gap-2 flex-col bg-gray-100 mt-auto" id="reviewForm">
+        <form action="{{ route('setReview') }}" method="POST" class="shadow-lg p-5 sticky bottom-0 z-[2] w-full flex gap-2 flex-col bg-white mt-auto" id="reviewForm">
             @csrf
             <input type="hidden" name="content_id" id="reviewId">
             <div class="rating self-end mb-1">
@@ -21,15 +21,17 @@
             @error('score')
                 <p class="text-[14px] text-red-500">{{ $message }}</p>
             @enderror
-            <input name="subject" type="text" placeholder="Subject" class="input input-bordered w-full text-sm" />
+            <input name="subject" type="text" placeholder="Subject" class="input w-full text-sm bg-gray-200" />
             @error('subject')
                 <p class="text-[14px] text-red-500">{{ $message }}</p>
             @enderror
-            <textarea name="message" class="textarea textarea-bordered resize-none" placeholder="Message"></textarea>
+            <div class="relative w-full">
+                <textarea name="message" class="textarea resize-none bg-gray-200 w-full" placeholder="Write a message.."></textarea>
+                <button type="submit" class="btn bg-blue-500 hover:bg-blue-400 text-white self-end disabled:bg-blue-500 disabled:text-white absolute bottom-3 right-1 btn-sm bi bi-send-fill" id="reviewSend"></button>
+            </div>
             @error('message')
                 <p class="text-[14px] text-red-500">{{ $message }}</p>
             @enderror
-            <button type="submit" class="btn bg-blue-500 hover:bg-blue-400 text-white self-end w-full max-w-[200px] disabled:bg-blue-500 disabled:text-white" id="reviewSend">Send</button>
         </form>
     </div>
 </div>

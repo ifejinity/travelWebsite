@@ -9,17 +9,17 @@
                 <h1 class="font-[400] text-[18px] text-gray-600 mb-5">Question not answered yet? We are here to help!</h1>
                 <div class="flex md:flex-row flex-col gap-x-5">
                     <div class="w-full mb-3">
-                        <input type="text" name="fullname" placeholder="Fullname" class="input input-bordered w-full" />
+                        <input type="text" name="fullname" placeholder="Fullname" class="input w-full bg-gray-200" />
                         <span class="text-[14px] text-red-500" id="errorFullname"></span>
                     </div>
                     <div class="w-full mb-3">
-                        <input type="text" name="email" placeholder="Email" class="input input-bordered w-full" />
+                        <input type="text" name="email" placeholder="Email" class="input w-full bg-gray-200" />
                         <span class="text-[14px] text-red-500" id="errorEmail"></span>
                     </div>
                 </div>
-                <input type="text" name="subject" placeholder="Subject" class="input input-bordered w-full" />
+                <input type="text" name="subject" placeholder="Subject" class="input w-full bg-gray-200" />
                 <span class="text-[14px] text-red-500 mb-3" id="errorSubject"></span>
-                <textarea name="message" class="textarea textarea-bordered resize-none text-base" placeholder="Message" rows="5"></textarea>
+                <textarea name="message" class="textarea resize-none text-base bg-gray-200" placeholder="Message" rows="5"></textarea>
                 <span class="text-[14px] text-red-500 mb-3" id="errorMessage"></span>
                 <button type="submit" class="btn bg-blue-500 hover:bg-blue-400 text-white self-end w-full max-w-[200px] disabled:bg-blue-500 disabled:text-white" id="emailSend">Send</button>
             </form>
