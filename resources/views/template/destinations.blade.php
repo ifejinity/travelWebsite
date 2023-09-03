@@ -49,8 +49,8 @@
 @endsection
 {{-- destination modal --}}
 @section('modalImage')
-    <div class="w-full h-screen bg-black/30 fixed top-0 z-[5] hidden justify-center items-center" id="imageModal">
-        <img src="" alt="" id="ModalImage" class="w-full lg:max-w-[60%] max-w-[90%]">
+    <div class="w-full h-screen bg-black/30 fixed top-0 z-[5] hidden justify-center items-center p-5" id="imageModal">
+        <img src="" alt="" id="ModalImage" class="w-full h-full object-contain">
     </div>
 @endsection
 {{-- js script --}}
