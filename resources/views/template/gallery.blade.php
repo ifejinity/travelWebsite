@@ -65,6 +65,7 @@
     {{-- get and set review --}}
     <script>
         $(document).ready(function () {
+            // event delegation for opening the review modal
             const reviewParent = document.querySelector("#imagesParent");
             reviewParent.addEventListener("click", (event) => {
                 const id = event.target.value;
