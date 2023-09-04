@@ -24,11 +24,9 @@
                 </div>
             </div>
         </div>
-        <div class="top-0 z-[1] absolute flex flex-col justify-center w-full items-center bg-black/30 h-full">
-            <div class="flex flex-col justify-center items-center bg-white/20 md:p-10 p-5">
-                <h1 class="text-[50px] md:text-[80px] font-bold text-white text-center underline-offset-[15px] underline">Discover Zambales</h1>
-                <p class="text-[20px] md:text-[40px] font-bold text-center text-white">Wreck Diving Capital of the Philippines</p>
-            </div>
+        <div class="top-0 z-[1] absolute flex flex-col justify-center w-full bg-black/30 h-full">
+            <h1 class="text-[50px] md:text-[100px] font-bold text-white text-center underline-offset-[15px] underline">Discover Zambales</h1>
+            <p class="text-[20px] md:text-[40px] font-bold text-center text-white">Wreck Diving Capital of the Philippines</p>
         </div>
     </div>
 @endsection

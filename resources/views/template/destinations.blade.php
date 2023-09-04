@@ -6,7 +6,7 @@
             <h1 class="text-bold text-[24px] font-[900]">ESSENTIAL ZAMBALES</h1>
             <div class="bg-blue-500 h-[5px] w-[200px]"></div>
             {{-- DO --}}
-            <div class="mt-10 flex lg:flex-row flex-col gap-5">
+            <div class="mt-10 flex lg:flex-row flex-col gap-5" id="do">
                 <div class="w-full lg:w-[25%]">
                     <h1 class="text-bold text-[24px] font-[900]">DO</h1>
                     <p>Places to see, ways to wander, and signature experiences.</p>
@@ -19,7 +19,7 @@
                 </div>
             </div>
             {{-- stay --}}
-            <div class="mt-10 flex lg:flex-row flex-col gap-5">
+            <div class="mt-10 flex lg:flex-row flex-col gap-5" id="stay">
                 <div class="w-full lg:w-[25%]">
                     <h1 class="text-bold text-[24px] font-[900]">STAY</h1>
                     <p>A mix of the charming, modern, and tried and true.</p>
@@ -32,7 +32,7 @@
                 </div>
             </div>
             {{-- eat --}}
-            <div class="mt-10 flex lg:flex-row flex-col gap-5">
+            <div class="mt-10 flex lg:flex-row flex-col gap-5" id="eat">
                 <div class="w-full lg:w-[25%]">
                     <h1 class="text-bold text-[24px] font-[900]">EAT</h1>
                     <p>Can't-miss spots to dine, drink, and feast.</p>

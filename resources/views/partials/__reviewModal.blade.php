@@ -3,7 +3,7 @@
         <button class="btn bi bi-x-lg rounded-full absolute top-[24px] left-[24px] bg-white/50 border-none" id="hideReviewModal"></button>
         <img src="" alt="" class="w-full h-full object-contain" id="reviewImage">
     </div>
-    <div class="flex flex-col gap-3 lg:w-[35%] w-full lg:overflow-y-scroll relative">
+    <div class="flex flex-col gap-3 lg:w-[35%] w-full lg:overflow-y-scroll relative h-full">
         <div class="shadow-md p-5 z-[2] bg-white" id="description"></div>
         <div class="p-5 flex-col flex" id="reviews">
             {{-- reviews go here --}}

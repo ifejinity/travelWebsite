@@ -86,29 +86,29 @@
                     <div class="flex flex-col">
                         <p class="text-blue-500 text-[18px] font-[500] mb-3">Quick links</p>
                         <p class="font-[500]">DESTINATIONS</p>
-                        <a href="" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Best to do</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Best to stay</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Best to eat</a>
+                        <a href="/zambales/destinations/#do" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Best to do</a>
+                        <a href="/zambales/destinations/#stay" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Best to stay</a>
+                        <a href="/zambales/destinations/#eat" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Best to eat</a>
                         <p class="mt-3 font-[500]">GALLERY</p>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Delicacies</a>
-                        <a href="http://" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Festivals</a>
+                        <a href="/zambales/gallery/#delicacies" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Delicacies</a>
+                        <a href="/zambales/gallery/#festivals" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Festivals</a>
                     </div>
                     <div class="flex flex-col">
                         <p class="text-blue-500 text-[18px] font-[500] mb-3">Municipalities/Cities</p>
                         <a href="/zambales/about/#botolan" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Botolan</a>
                         <a href="/zambales/about/#cabangan" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Cabangan</a>
                         <a href="/zambales/about/#candelaria" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Candelaria</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Castillejos</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Iba</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Masinloc</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Olongapo</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Palauig</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Antonio</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Felipe</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Marcelino</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Narciso</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Santa Cruz</a>
-                        <a href="/zambales/about/#" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Subic</a>
+                        <a href="/zambales/about/#castillejos" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Castillejos</a>
+                        <a href="/zambales/about/#iba" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Iba</a>
+                        <a href="/zambales/about/#masinloc" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Masinloc</a>
+                        <a href="/zambales/about/#olongapo" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Olongapo</a>
+                        <a href="/zambales/about/#palauig" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Palauig</a>
+                        <a href="/zambales/about/#san antonio" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Antonio</a>
+                        <a href="/zambales/about/#san felipe" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Felipe</a>
+                        <a href="/zambales/about/#san marcelino" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Marcelino</a>
+                        <a href="/zambales/about/#san narciso" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">San Narciso</a>
+                        <a href="/zambales/about/#santa cruz" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Santa Cruz</a>
+                        <a href="/zambales/about/#subic" class="hover:underline hover:text-blue-600 link text-gray-500 w-fit font-[300]">Subic</a>
                     </div>
                 </div>
             </div>

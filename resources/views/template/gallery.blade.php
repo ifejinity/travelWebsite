@@ -6,7 +6,7 @@
             <h1 class="text-bold text-[24px] font-[900]">HIGHLIGHTS ZAMBALES</h1>
             <div class="bg-blue-500 h-[5px] w-[200px]"></div>
             {{-- delicacies --}}
-            <div class="mt-10 flex lg:flex-row flex-col gap-5" id="gallery">
+            <div class="mt-10 flex lg:flex-row flex-col gap-5" id="delicacies">
                 <div class="w-full lg:w-[25%]">
                     <h1 class="text-bold text-[24px] font-[900]">DELICACIES</h1>
                     <p>Consistent with the rest of the Philippines, the Province of Zambales thrives on the more basic satisfiers of the good life.</p>
@@ -19,7 +19,7 @@
                 </div>
             </div>
             {{-- festivals --}}
-            <div class="mt-10 flex lg:flex-row flex-col gap-5" id="gallery">
+            <div class="mt-10 flex lg:flex-row flex-col gap-5" id="festivals">
                 <div class="w-full lg:w-[25%]">
                     <h1 class="text-bold text-[24px] font-[900]">FESTIVALS</h1>
                     <p>Zambales also plays host to a number of festivals celebrated throughout the year. Want to join these festivities? Take a look at this list to find out more about the popular festivals in Zambales, Philippines.</p>

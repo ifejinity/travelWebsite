@@ -39,16 +39,17 @@ class zambalesController extends Controller
     public function contactUs() {
         return view('template.contactus')->with(['title'=>'Contact us']);
     }
-
+    // send an email
     public function sendEmail(Request $request) {
-        $validator = Validator::make($request->all(),[
+        $validator = Validator::make($request->all(), [
             'fullname' => 'required|min:3',
             'email' => 'required|email',
             'subject' => 'required|min:3',
             'message' => 'required|min:10'
         ]);
-        if($validator->fails()) {
-            return response()->json(['status'=>500, 'message'=>'Invalid inputs!', 'errorMessages'=>$validator->errors()]);
+    
+        if ($validator->fails()) {
+            return response()->json(['status' => 500, 'message' => 'Invalid inputs!', 'errorMessages' => $validator->errors()]);
         } else {
             $mail_data = [
                 'recipient' => 'mrlonzanida08@gmail.com',
@@ -57,18 +58,21 @@ class zambalesController extends Controller
                 'subject' => $request->subject,
                 'body' => $request->message
             ];
+    
             try {
-                \Mail::send('emails.contactUsEmail', $mail_data, function($message) use ($mail_data) {
+                \Mail::send('emails.contactUsEmail', $mail_data, function ($message) use ($mail_data) {
                     $message->to($mail_data['recipient'])
-                            ->from($mail_data['fromEmail'], $mail_data['fromName'])
-                            ->Subject($mail_data['subject']);
+                        ->from($mail_data['fromEmail'], $mail_data['fromName'])
+                        ->subject($mail_data['subject']);
                 });
-                return response()->json(['status'=>200, 'message'=>'Email successfuly sent!']);
-            } catch (ModelNotFoundException $e) {
-                return response()->json(['status'=>500, 'message'=>'Internal servel error!']);
+    
+                return response()->json(['status' => 200, 'message' => 'Email successfully sent!']);
+            } catch (\Exception $e) {
+                return response()->json(['status' => 500, 'message' => 'Internal server error!']);
             }
         }
     }
+    
     // get review
     public function getReview(Request $request) {
         $id = $request->id;
