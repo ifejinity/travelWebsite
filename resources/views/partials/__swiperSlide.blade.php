@@ -20,6 +20,7 @@
                     </div>
                     <div class="card-actions justify-between items-center">
                         <button class="btn btn-sm normal-case review" value="{{ $item['content_id'] }}">Review</button>
+                        {{-- star indicator --}}
                         <div class="rating">
                             @for ($i = 1; $i <= 5; $i++)
                                 <input

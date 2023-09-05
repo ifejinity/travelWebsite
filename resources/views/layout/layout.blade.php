@@ -114,9 +114,9 @@
             </div>
             <div class="w-full flex-col flex justify-center items-center mt-5 pt-5 border-t-2 border-gray-100 gap-2">
                 <div class="flex gap-5">
-                    <a class="bi bi-facebook text-[24px] text-gray-600"></a>
-                    <a class="bi bi-envelope-at-fill text-[24px] text-gray-600"></a>
-                    <a class="bi bi-telephone-fill text-[24px] text-gray-600"></a>
+                    <a href="https://www.facebook.com/ifejinity" class="bi bi-facebook text-[24px] text-gray-600"></a>
+                    <a href="mailto:mrlonzanida08@gmail.com" class="bi bi-envelope-at-fill text-[24px] text-gray-600"></a>
+                    <a href="tel:09306904474" class="bi bi-telephone-fill text-[24px] text-gray-600"></a>
                 </div>
                 <h3 class="text-center text-[14px]">Copyright © 2023 Jeffrey Lonzanida</h3>
             </div>
